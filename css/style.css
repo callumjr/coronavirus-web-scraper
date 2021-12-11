@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  width: 25rem;
+  margin: 2rem auto;
+  font-family: 'Montserrat', sans-serif;
+  color: #414141;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #3aba21;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #26cc42;
+}
+
+nav a:hover {
+  color: #6ce680;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #303030;
+  margin: 0.5rem 0;
+}
+
+.container p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+div {
+  text-align: center;
+}
+
+div div {
+  margin: 1rem;
+}
+
+div .total-cases p {
+  color: #c5c3c3;
+}
+
+div .total-deaths p {
+  color: #737373;
+}
+
+div .total-recovered p {
+  color: #3aba21;
+}
+
+div .date {
+  color: #3b84e9;
+}
+
+div .cases {
+  color: #c5c3c3;
+}
+
+div .deaths {
+  color: #737373;
+}
+
+div .recovered p {
+  color: #3aba21;
+}
+
+.hidden {
+  display: none;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+}
+
+input[type="date"],
+select {
+  padding: 1rem;
+  color: #0d5a1a;
+  width: 12rem;
+  font-size: 1rem;
+  border: 1px solid #6ce680;
+}
+
+.date-div,
+.select-div {
+  margin: 2rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #d12d2d;
+}

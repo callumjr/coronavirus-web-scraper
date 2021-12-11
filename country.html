@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus Web Scrape</title>
+</head>
+<body>
+
+    <h1 class="title">Coronavirus Daily Data</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Total</a></li>
+            <li><a href="date.html">Search by date</a></li>
+            <li><a href="country.html">Search by country</a></li>
+        </ul>
+    </nav>
+
+    <div class="select-div">
+        <select name="" class="select">
+            <option value="">--Select Country--</option>
+        </select>
+    </div>
+
+    <div class="container">
+        <div class="wrapper hidden">
+
+            <div>
+                <h2 class="cases-heading">Cases:</h2>
+                <div class="cases"></div>
+            </div>
+            <div>
+                <h2 class="deaths-heading">Deaths:</h2>
+                <div class="deaths"></div>
+            </div>
+            <div>
+                <h2 class="recovered-heading">Recovered:</h2>
+                <div class="recovered"></div>
+            </div>
+            
+            
+        </div>
+        <div class="error-div"></div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/js/country.js"></script>
+</body>
+</html>
